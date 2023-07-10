@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
-/*
- * main -  prints all arguments it receives every one in seperate line
- * @argc: counter
- * @argv: value
+/**
+ *main -  prints all arguments it receives every one in seperate line
+ *@argc: counter
+ *@argv: value
  *
- * Return: 0 = Success
+ *Return: 0 = Success
  */
 int main(int argc, char **argv)
 {
