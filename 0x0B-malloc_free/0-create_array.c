@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * create_array : Creat  Array of size size & Assign char c
- * @size: Array Size 
- * @c: Assign Char 
+ * create_array - Create  Array of size size & Assign char c
+ * @size: Array Size
+ * @c: Assign Char
  * Description  create array of size size & Assign char c.
  * Return: NULL if fail
  *
