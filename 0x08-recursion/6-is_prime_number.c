@@ -5,7 +5,6 @@ int actual_prime(int n, int i);
 /**
  * is_prime_number -  if  integer is prime number or no.
  * @n:  evaluated NO.
- * @i: iterator
  * Return: 1 if n  prime number, 0 if no.
  */
 int is_prime_number(int n)
