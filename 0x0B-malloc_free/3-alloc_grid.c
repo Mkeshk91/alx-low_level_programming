@@ -2,14 +2,14 @@
 #include <stdlib.h>
 
 /**
- * alloc_grd - nested loop to make grid.
+ * alloc_grid - nested loop to make grid.
  * @width: input   width;
  * @height:  input  height;
  * Return: pointer t 2 dim. array;
  */
 
 
-int **alloc_grd(int width, int height)
+int **alloc_grid(int width, int height)
 {
 	int **mai;
 	int m, y;
