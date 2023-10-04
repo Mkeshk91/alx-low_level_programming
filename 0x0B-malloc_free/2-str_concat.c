@@ -1,10 +1,10 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  * str_concat- find length of string;
- *@a1: inp 1 to concate,
- *@a2: inp 2 to concate,
- * Return: concate of s1 & s2,
+ *@a1: input  1 to concat,
+ *@a2: input 2 to concat,
+ * Return: concat of s1 & s2,
  **/
 
 char *str_concat(char *a1, char *a2)
