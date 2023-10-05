@@ -18,7 +18,7 @@ int _atoi(char *d)
 			sign *= -1;
 		i++;
 	}
-	while (d[i] <= '9' && (d[i] >= '0' && sd[i] != '\0'))
+	while (d[i] <= '9' && (d[i] >= '0' && d[i] != '\0'))
 	{
 		res = (res * 10) + (d[i] - '0');
 		i++;
