@@ -9,7 +9,7 @@
  *
  * @str: string - malloc string.
  *
- * @lens: length of string.
+ * @len: length of string.
  *
  * @next: point to next node
  *
@@ -19,7 +19,7 @@ typedef struct list_s
 
 {
 	char *str;
-	unsigned int lens;
+	unsigned int len;
 	struct list_s *next;
 }
 list_t;

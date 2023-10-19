@@ -18,7 +18,7 @@ list_t *add_node_end(list_t **head, const char *str)
 {
 	char *dp;
 
-	int lens;
+	int len;
 
 	list_t *nw, *last;
 
@@ -33,13 +33,13 @@ list_t *add_node_end(list_t **head, const char *str)
 		free(nw);
 		return (NULL);
 	}
-	for (lens = 0; str[lens];)
+	for (len = 0; str[len];)
 
-		lens++;
+		len++;
 
 	nw->str = dp;
 
-	nw->lens = lens;
+	nw->len = len;
 
 	nw->next = NULL;
 
